@@ -23,6 +23,7 @@
 #header,
 footer {
   background-color: #AC92A6;
+  padding: 15px;
 }
 
 header h1 {
@@ -66,18 +67,35 @@ nav a {
 }
 
 main {
-  
-  height: 100vh;
   width: 70%;
   justify-content: center;
-  
+  padding:10px;
 }
 
-img {
-  display: block;
-  margin: 5%;
-  max-width: 35%;
+main ul {
+  padding-left: 0;
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+}
+
+main li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+main li img {
+  width: 500px; 
   height: auto;
+  margin-left: auto;
+  padding: 10px;
 }
 
 /* above is desktop, below is phone */
@@ -101,5 +119,16 @@ img {
   nav li {
     padding: 2%;
     margin:1%;
+  }
+
+  main li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  main li img {
+    margin:0;
+    width: 100%;
+    max-width: 500px;
   }
 }

@@ -37,25 +37,33 @@
         </ul>
       </nav>
     <main>
-      <!-- <img src="src/portrait.jpg" alt="portrait" id = "portrait"> -->
-      <h2>Enter the first number:</h2>
-      <label for="one"></label><input id="one">
-      <div id = "buttons">
-        <button onclick="doAdd()">+</button>
-        <button onclick="doSub()">-</button>
-        <button onclick="doMult()">*</button>
-        <button onclick="doDiv()">/</button>
-        <button onclick="doPow()">^</button>
-        <button onclick="doClear()">CE</button>
+      <h1>Projects</h1>
+      <h2>Ryan's Magnificent Calculator</h2>
+      <div id = "calculator">
+        <h3>Enter the first number:</h3>
+        <label for="one"></label><input id="one">
+        <div id = "buttons">
+          <button onclick="doAdd()">+</button>
+          <button onclick="doSub()">-</button>
+          <button onclick="doMult()">*</button>
+          <button onclick="doDiv()">/</button>
+          <button onclick="doPow()">^</button>
+          <button onclick="doClear()">CE</button>
+        </div>
+        <h3>Enter the second number:</h3>
+        <label for="two"></label><input id="two">
+        <h3>The result is:</h3>
+        <p id="output"></p>
+        <script src="index.js"></script>
+        <img src="src/wow.png" alt="wow" id="wow">
       </div>
-      <h2>Enter the second number:</h2>
-      <label for="two"></label><input id="two">
-      <h2>The result is:</h2>
-      <p id="output"></p>
-      <script src="index.js"></script>
     </main>
     </div>
     <footer>
+      <p>
+        2025 Ryan Hwang. All rights reserved. 
+        <a href="credits.html">Credits</a> &copy; 
+      </p>
     </footer>
   </div>
 </body>

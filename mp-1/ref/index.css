@@ -23,6 +23,7 @@
 #header,
 footer {
   background-color: #AC92A6;
+  padding: 15px;
 }
 
 header h1 {

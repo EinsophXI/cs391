@@ -23,6 +23,7 @@
 #header,
 footer {
   background-color: #AC92A6;
+  padding: 15px;
 }
 
 header h1 {
@@ -70,7 +71,7 @@ main {
   height: 100vh;
   width: 70%;
   justify-content: center;
-  
+  padding:10px;
 }
 
 main ul {
@@ -88,7 +89,8 @@ main li {
   display: flex;
   align-items: center;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
 
